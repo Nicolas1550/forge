@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "steps": [
+    {
+      "step": 1,
+      "component": "psu",
+      "file": "psu.glb",
+      "camera_target": "psu",
+      "notes": "CPU/PSU/storage are illustrative proxies"
+    },
+    {
+      "step": 2,
+      "component": "motherboard",
+      "file": "motherboard.glb",
+      "camera_target": "motherboard",
+      "notes": "Source geometry"
+    },
+    {
+      "step": 3,
+      "component": "cpu",
+      "file": "cpu.glb",
+      "camera_target": "cpu",
+      "notes": "CPU/PSU/storage are illustrative proxies"
+    },
+    {
+      "step": 4,
+      "component": "storage",
+      "file": "storage.glb",
+      "camera_target": "storage",
+      "notes": "CPU/PSU/storage are illustrative proxies"
+    },
+    {
+      "step": 5,
+      "component": "ram",
+      "file": "ram.glb",
+      "camera_target": "ram",
+      "notes": "Source geometry"
+    },
+    {
+      "step": 6,
+      "component": "radiator",
+      "file": "radiator.glb",
+      "camera_target": "radiator",
+      "notes": "AIO has separate radiator, pump and tubes"
+    },
+    {
+      "step": 7,
+      "component": "aio_pump",
+      "file": "aio_pump.glb",
+      "camera_target": "aio_pump",
+      "notes": "AIO has separate radiator, pump and tubes"
+    },
+    {
+      "step": 8,
+      "component": "aio_hoses",
+      "file": "aio_hoses.glb",
+      "camera_target": "aio_hoses",
+      "notes": "AIO has separate radiator, pump and tubes"
+    },
+    {
+      "step": 9,
+      "component": "gpu",
+      "file": "gpu.glb",
+      "camera_target": "gpu",
+      "notes": "Source geometry"
+    },
+    {
+      "step": 10,
+      "component": "fans",
+      "file": "fans.glb",
+      "camera_target": "fans",
+      "notes": "Source geometry"
+    },
+    {
+      "step": 11,
+      "component": "glass",
+      "file": "glass_panel.glb",
+      "camera_target": "glass_open",
+      "notes": "Source geometry"
+    }
+  ],
+  "opening_sequence": [
+    "door_glass",
+    "zoom_interior",
+    "focus_part",
+    "install_part",
+    "return_overview"
+  ],
+  "not_implemented_in_blender": "Website tween and selection from Neon database"
+}

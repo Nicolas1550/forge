@@ -1,0 +1,367 @@
+{
+  "version": 3,
+  "coordinate_system": "gltf_y_up",
+  "source_rest_position": "Todas las piezas estan ya posicionadas y exportadas en el origen global compartido.",
+  "parts": {
+    "motherboard": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -1.45,
+        0.12,
+        -0.0
+      ],
+      "pivot_gltf": [
+        0.51517,
+        0.234618,
+        -0.616959
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.51517,
+          0.234618,
+          -0.616959
+        ],
+        "size": [
+          0.500128,
+          2.341832,
+          1.995687
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "cpu": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.9,
+        0.02,
+        -0.0
+      ],
+      "pivot_gltf": [
+        0.415,
+        0.58,
+        -0.63
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.415,
+          0.58,
+          -0.63
+        ],
+        "size": [
+          0.06,
+          0.29,
+          0.29
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "generated_generic"
+    },
+    "gpu": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -1.6,
+        0.05,
+        0.18
+      ],
+      "pivot_gltf": [
+        0.181451,
+        -0.196972,
+        -0.862127
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.181451,
+          -0.196972,
+          -0.862127
+        ],
+        "size": [
+          0.981998,
+          0.252425,
+          1.656228
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "ram": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.2,
+        0.92,
+        -0.0
+      ],
+      "pivot_gltf": [
+        0.437486,
+        0.59701,
+        -0.173869
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.437486,
+          0.59701,
+          -0.173869
+        ],
+        "size": [
+          0.281134,
+          0.95416,
+          0.253187
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "storage": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.82,
+        0.0,
+        -0.0
+      ],
+      "pivot_gltf": [
+        0.415,
+        -0.6,
+        0.16
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.415,
+          -0.6,
+          0.16
+        ],
+        "size": [
+          0.035,
+          0.105,
+          0.37
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "generated_generic"
+    },
+    "psu": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -1.35,
+        -0.12,
+        -0.15
+      ],
+      "pivot_gltf": [
+        0.05,
+        -1.26,
+        -0.72
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.05,
+          -1.26,
+          -0.72
+        ],
+        "size": [
+          1.12,
+          0.52,
+          0.96
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "generated_generic"
+    },
+    "radiator": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.2,
+        1.0,
+        -0.0
+      ],
+      "pivot_gltf": [
+        -0.1279,
+        1.433351,
+        -0.178718
+      ],
+      "bounds_gltf": {
+        "center": [
+          -0.1279,
+          1.433351,
+          -0.178718
+        ],
+        "size": [
+          0.955325,
+          0.2603,
+          1.949099
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "aio_pump": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.95,
+        0.08,
+        0.16
+      ],
+      "pivot_gltf": [
+        0.425503,
+        0.576555,
+        -0.632244
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.425503,
+          0.576555,
+          -0.632244
+        ],
+        "size": [
+          0.332326,
+          0.558929,
+          0.583171
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "aio_hoses": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -0.45,
+        0.22,
+        0.11
+      ],
+      "pivot_gltf": [
+        0.133099,
+        0.993159,
+        0.272889
+      ],
+      "bounds_gltf": {
+        "center": [
+          0.133099,
+          0.993159,
+          0.272889
+        ],
+        "size": [
+          0.442802,
+          1.663682,
+          1.375391
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "fans": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "staging_offset_gltf": [
+        -1.0,
+        0.22,
+        0.4
+      ],
+      "pivot_gltf": [
+        -0.134122,
+        -0.213036,
+        -0.024602
+      ],
+      "bounds_gltf": {
+        "center": [
+          -0.134122,
+          -0.213036,
+          -0.024602
+        ],
+        "size": [
+          1.135625,
+          2.853857,
+          3.140538
+        ]
+      },
+      "staging_animation_seconds": 1.15,
+      "coordinate_space": "shared_glb_root",
+      "visual_representation": "original_model"
+    },
+    "glass": {
+      "rest_offset_gltf": [
+        0,
+        0,
+        0
+      ],
+      "pivot_gltf": [
+        -0.778366,
+        -0.057643,
+        -1.610596
+      ],
+      "modes": {
+        "closed": {
+          "rotation_y_degrees": 0,
+          "translation_gltf": [
+            0,
+            0,
+            0
+          ]
+        },
+        "door": {
+          "rotation_y_degrees": -100,
+          "translation_gltf": [
+            0,
+            0,
+            0
+          ]
+        },
+        "detached": {
+          "rotation_y_degrees": 0,
+          "translation_gltf": [
+            -1.55,
+            0,
+            0
+          ]
+        }
+      },
+      "pivot_instruction": "Wrap glTF scene in group located at pivot, offset child by -pivot; rotate group about Y. Avoid rotating GLB about its world origin.",
+      "transition_seconds": 1.25
+    }
+  }
+}

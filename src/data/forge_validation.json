@@ -1,0 +1,54 @@
+{
+  "version": 3,
+  "source_meshes": 427,
+  "source_floor_excluded": 1,
+  "source_meshes_excluding_floor": 426,
+  "source_meshes_covered_once": 426,
+  "static_original_meshes": 107,
+  "original_module_mesh_counts": {
+    "motherboard": 166,
+    "gpu": 34,
+    "ram": 40,
+    "radiator": 23,
+    "aio_pump": 9,
+    "aio_hoses": 2,
+    "fans": 44
+  },
+  "coverage_ok": true,
+  "generated_new_meshes": 3,
+  "glb_header_sizes_valid": true,
+  "files_exported": [
+    "base_static.glb",
+    "glass_panel.glb",
+    "motherboard.glb",
+    "cpu.glb",
+    "gpu.glb",
+    "ram.glb",
+    "storage.glb",
+    "psu.glb",
+    "radiator.glb",
+    "aio_pump.glb",
+    "aio_hoses.glb",
+    "fans.glb"
+  ],
+  "ram_slots_classified_without_sticks": true,
+  "ram_slots_visual_verification": "pending_user_render_review",
+  "radiator_exported_separately_from_pump": true,
+  "glass_door_hinge_metadata": true,
+  "camera_targets_for_all_slots": true,
+  "source_parts_need_visual_review": [
+    "motherboard",
+    "gpu",
+    "ram",
+    "radiator",
+    "aio_pump",
+    "aio_hoses",
+    "fans"
+  ],
+  "generic_parts_not_commercially_exact": [
+    "cpu",
+    "psu",
+    "storage"
+  ],
+  "visual_previews": "created_pending_user_review"
+}

@@ -1,0 +1,484 @@
+{
+  "name": "FORGE Studio V3 - modular assembly review",
+  "version": "3.0",
+  "status": "VISUAL_REVIEW_REQUIRED",
+  "license": "CC BY 4.0",
+  "author": "Yolala1232",
+  "attribution": "This work is based on \"Custom Gaming PC\" (https://sketchfab.com/3d-models/custom-gaming-pc-1a24273417534f69afa0f7c62b643ffc) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "source": "https://sketchfab.com/3d-models/custom-gaming-pc-1a24273417534f69afa0f7c62b643ffc",
+  "coordinate_system": "gltf_y_up",
+  "assembly_rule": "Load base_static.glb + glass_panel.glb + all desired part GLBs with the same world origin. Do not recenter individual GLBs.",
+  "source_mesh_count_excluding_floor": 426,
+  "source_original_meshes_once": 426,
+  "original_static_mesh_count": 107,
+  "source_original_slots": [
+    "motherboard",
+    "gpu",
+    "ram",
+    "radiator",
+    "aio_pump",
+    "aio_hoses",
+    "fans"
+  ],
+  "generated_illustrative_slots": [
+    "cpu",
+    "psu",
+    "storage"
+  ],
+  "parts": {
+    "motherboard": {
+      "file": "motherboard.glb",
+      "source": "original_model",
+      "mesh_count": 166,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.51517,
+          0.616959,
+          0.234618
+        ],
+        "size_blender": [
+          0.500128,
+          1.995687,
+          2.341832
+        ],
+        "center_gltf": [
+          0.51517,
+          0.234618,
+          -0.616959
+        ],
+        "size_gltf": [
+          0.500128,
+          2.341832,
+          1.995687
+        ],
+        "min_blender": [
+          0.265106,
+          -0.380884,
+          -0.936298
+        ],
+        "max_blender": [
+          0.765234,
+          1.614803,
+          1.405535
+        ]
+      },
+      "notes": "Incluye placa, ranuras DIMM vacias y conectores; requiere vista de inspeccion."
+    },
+    "cpu": {
+      "file": "cpu.glb",
+      "source": "generated_generic",
+      "mesh_count": 1,
+      "classification_confidence": "illustrative_only",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.415,
+          0.63,
+          0.58
+        ],
+        "size_blender": [
+          0.06,
+          0.29,
+          0.29
+        ],
+        "center_gltf": [
+          0.415,
+          0.58,
+          -0.63
+        ],
+        "size_gltf": [
+          0.06,
+          0.29,
+          0.29
+        ],
+        "min_blender": [
+          0.385,
+          0.485,
+          0.435
+        ],
+        "max_blender": [
+          0.445,
+          0.775,
+          0.725
+        ]
+      },
+      "notes": "Modelo generico ilustrativo"
+    },
+    "gpu": {
+      "file": "gpu.glb",
+      "source": "original_model",
+      "mesh_count": 34,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.181451,
+          0.862127,
+          -0.196972
+        ],
+        "size_blender": [
+          0.981998,
+          1.656228,
+          0.252425
+        ],
+        "center_gltf": [
+          0.181451,
+          -0.196972,
+          -0.862127
+        ],
+        "size_gltf": [
+          0.981998,
+          0.252425,
+          1.656228
+        ],
+        "min_blender": [
+          -0.309548,
+          0.034013,
+          -0.323184
+        ],
+        "max_blender": [
+          0.672451,
+          1.690241,
+          -0.070759
+        ]
+      },
+      "notes": "Revisar renders del Studio"
+    },
+    "ram": {
+      "file": "ram.glb",
+      "source": "original_model",
+      "mesh_count": 40,
+      "classification_confidence": "high_candidate",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.437486,
+          0.173869,
+          0.59701
+        ],
+        "size_blender": [
+          0.281134,
+          0.253187,
+          0.95416
+        ],
+        "center_gltf": [
+          0.437486,
+          0.59701,
+          -0.173869
+        ],
+        "size_gltf": [
+          0.281134,
+          0.95416,
+          0.253187
+        ],
+        "min_blender": [
+          0.296918,
+          0.047275,
+          0.11993
+        ],
+        "max_blender": [
+          0.578053,
+          0.300462,
+          1.07409
+        ]
+      },
+      "notes": "40 submallas agrupadas en cuatro sticks, ya no deja los adornos dentro de la base."
+    },
+    "storage": {
+      "file": "storage.glb",
+      "source": "generated_generic",
+      "mesh_count": 1,
+      "classification_confidence": "illustrative_only",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.415,
+          -0.16,
+          -0.6
+        ],
+        "size_blender": [
+          0.035,
+          0.37,
+          0.105
+        ],
+        "center_gltf": [
+          0.415,
+          -0.6,
+          0.16
+        ],
+        "size_gltf": [
+          0.035,
+          0.105,
+          0.37
+        ],
+        "min_blender": [
+          0.3975,
+          -0.345,
+          -0.6525
+        ],
+        "max_blender": [
+          0.4325,
+          0.025,
+          -0.5475
+        ]
+      },
+      "notes": "Modelo generico ilustrativo"
+    },
+    "psu": {
+      "file": "psu.glb",
+      "source": "generated_generic",
+      "mesh_count": 1,
+      "classification_confidence": "illustrative_only",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.05,
+          0.72,
+          -1.26
+        ],
+        "size_blender": [
+          1.12,
+          0.96,
+          0.52
+        ],
+        "center_gltf": [
+          0.05,
+          -1.26,
+          -0.72
+        ],
+        "size_gltf": [
+          1.12,
+          0.52,
+          0.96
+        ],
+        "min_blender": [
+          -0.51,
+          0.24,
+          -1.52
+        ],
+        "max_blender": [
+          0.61,
+          1.2,
+          -1.0
+        ]
+      },
+      "notes": "Modelo generico ilustrativo"
+    },
+    "radiator": {
+      "file": "radiator.glb",
+      "source": "original_model",
+      "mesh_count": 23,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          -0.1279,
+          0.178718,
+          1.433351
+        ],
+        "size_blender": [
+          0.955325,
+          1.949099,
+          0.2603
+        ],
+        "center_gltf": [
+          -0.1279,
+          1.433351,
+          -0.178718
+        ],
+        "size_gltf": [
+          0.955325,
+          0.2603,
+          1.949099
+        ],
+        "min_blender": [
+          -0.605562,
+          -0.795831,
+          1.303201
+        ],
+        "max_blender": [
+          0.349763,
+          1.153268,
+          1.563501
+        ]
+      },
+      "notes": "Conjunto superior: radiador + dos ventiladores y sus marcos. Revisar vista resaltada."
+    },
+    "aio_pump": {
+      "file": "aio_pump.glb",
+      "source": "original_model",
+      "mesh_count": 9,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.425503,
+          0.632244,
+          0.576555
+        ],
+        "size_blender": [
+          0.332326,
+          0.583171,
+          0.558929
+        ],
+        "center_gltf": [
+          0.425503,
+          0.576555,
+          -0.632244
+        ],
+        "size_gltf": [
+          0.332326,
+          0.558929,
+          0.583171
+        ],
+        "min_blender": [
+          0.25934,
+          0.340658,
+          0.29709
+        ],
+        "max_blender": [
+          0.591666,
+          0.923829,
+          0.856019
+        ]
+      },
+      "notes": "Bomba/bloque y detalles del CPU."
+    },
+    "aio_hoses": {
+      "file": "aio_hoses.glb",
+      "source": "original_model",
+      "mesh_count": 2,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          0.133099,
+          -0.272889,
+          0.993159
+        ],
+        "size_blender": [
+          0.442802,
+          1.375391,
+          1.663682
+        ],
+        "center_gltf": [
+          0.133099,
+          0.993159,
+          0.272889
+        ],
+        "size_gltf": [
+          0.442802,
+          1.663682,
+          1.375391
+        ],
+        "min_blender": [
+          -0.088302,
+          -0.960584,
+          0.161318
+        ],
+        "max_blender": [
+          0.3545,
+          0.414806,
+          1.825
+        ]
+      },
+      "notes": "Tubos originales vinculados al montaje del AIO. No son fisicamente flexibles todavia."
+    },
+    "fans": {
+      "file": "fans.glb",
+      "source": "original_model",
+      "mesh_count": 44,
+      "classification_confidence": "medium",
+      "requires_visual_review": true,
+      "bounds": {
+        "center_blender": [
+          -0.134122,
+          0.024602,
+          -0.213036
+        ],
+        "size_blender": [
+          1.135625,
+          3.140538,
+          2.853857
+        ],
+        "center_gltf": [
+          -0.134122,
+          -0.213036,
+          -0.024602
+        ],
+        "size_gltf": [
+          1.135625,
+          2.853857,
+          3.140538
+        ],
+        "min_blender": [
+          -0.701935,
+          -1.545667,
+          -1.639965
+        ],
+        "max_blender": [
+          0.43369,
+          1.594871,
+          1.213893
+        ]
+      },
+      "notes": "Ventiladores de chasis no superiores, junto con marcos originales. Ventiladores del radiador quedan en radiator.glb."
+    }
+  },
+  "files": {
+    "base_static.glb": {
+      "bytes": 49085040,
+      "mesh_count": 107
+    },
+    "glass_panel.glb": {
+      "bytes": 2476,
+      "mesh_count": 1
+    },
+    "motherboard.glb": {
+      "bytes": 14606060,
+      "mesh_count": 166
+    },
+    "cpu.glb": {
+      "bytes": 2200,
+      "mesh_count": 1
+    },
+    "gpu.glb": {
+      "bytes": 5205604,
+      "mesh_count": 34
+    },
+    "ram.glb": {
+      "bytes": 512292,
+      "mesh_count": 40
+    },
+    "storage.glb": {
+      "bytes": 2220,
+      "mesh_count": 1
+    },
+    "psu.glb": {
+      "bytes": 2212,
+      "mesh_count": 1
+    },
+    "radiator.glb": {
+      "bytes": 642276,
+      "mesh_count": 23
+    },
+    "aio_pump.glb": {
+      "bytes": 513420,
+      "mesh_count": 9
+    },
+    "aio_hoses.glb": {
+      "bytes": 43492,
+      "mesh_count": 2
+    },
+    "fans.glb": {
+      "bytes": 760476,
+      "mesh_count": 44
+    }
+  },
+  "prohibitions": [
+    "No afirmar que CPU/PSU/SSD son productos comerciales exactos.",
+    "No duplicar radiator/fans o RAM con modelos previos."
+  ]
+}

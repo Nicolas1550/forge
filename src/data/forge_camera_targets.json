@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "coordinate_system": "gltf_y_up",
+  "targets": {
+    "overview": {
+      "position": [
+        -5.700593,
+        3.250333,
+        7.30076
+      ],
+      "target": [
+        0.0,
+        0.05,
+        -0.0
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "glass_open": {
+      "position": [
+        -3.079313,
+        1.916105,
+        4.037365
+      ],
+      "target": [
+        0.12,
+        0.12,
+        -0.06
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "motherboard": {
+      "position": [
+        -2.890399,
+        2.146517,
+        3.74456
+      ],
+      "target": [
+        0.51517,
+        0.234618,
+        -0.616959
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "cpu": {
+      "position": [
+        -1.33008,
+        1.559694,
+        1.604926
+      ],
+      "target": [
+        0.415,
+        0.58,
+        -0.63
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "gpu": {
+      "position": [
+        -2.22709,
+        1.155192,
+        2.222496
+      ],
+      "target": [
+        0.181451,
+        -0.196972,
+        -0.862127
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "ram": {
+      "position": [
+        -1.307594,
+        1.576704,
+        2.061058
+      ],
+      "target": [
+        0.437486,
+        0.59701,
+        -0.173869
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "storage": {
+      "position": [
+        -1.33008,
+        0.379694,
+        2.394927
+      ],
+      "target": [
+        0.415,
+        -0.6,
+        0.16
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "psu": {
+      "position": [
+        -1.69508,
+        -0.280306,
+        1.514926
+      ],
+      "target": [
+        0.05,
+        -1.26,
+        -0.72
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "radiator": {
+      "position": [
+        -2.962344,
+        3.024618,
+        3.45136
+      ],
+      "target": [
+        -0.1279,
+        1.433351,
+        -0.178718
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "aio_pump": {
+      "position": [
+        -1.319577,
+        1.556249,
+        1.602682
+      ],
+      "target": [
+        0.425503,
+        0.576555,
+        -0.632244
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "aio_hoses": {
+      "position": [
+        -2.286282,
+        2.351408,
+        3.371395
+      ],
+      "target": [
+        0.133099,
+        0.993159,
+        0.272889
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    },
+    "fans": {
+      "position": [
+        -4.701196,
+        2.350935,
+        5.824458
+      ],
+      "target": [
+        -0.134122,
+        -0.213036,
+        -0.024602
+      ],
+      "duration_seconds": 1.25,
+      "easing": "easeInOutCubic",
+      "position_is_absolute_gltf": true
+    }
+  },
+  "trigger_map": {
+    "open_glass": "glass_open",
+    "close_glass": "overview",
+    "select_gpu": "gpu",
+    "select_ram": "ram",
+    "select_cooler": "aio_pump",
+    "select_radiator": "radiator",
+    "select_cpu": "cpu",
+    "select_motherboard": "motherboard",
+    "select_storage": "storage",
+    "select_psu": "psu",
+    "select_fans": "fans"
+  },
+  "integration_note": "The frontend must interpolate both camera position and OrbitControls target; Blender only exports metadata."
+}

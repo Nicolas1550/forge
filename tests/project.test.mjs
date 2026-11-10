@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');const read=(f)=>fs.readFileSync(path.join(root,f),'utf8');
+test('13 tablas de Neon referenciadas en API',()=>{const schema=read('sql/FORGE_NEON_SCHEMA_V2.sql');assert.equal((schema.match(/CREATE TABLE IF NOT EXISTS public\.forge_/g)||[]).length,13);const order=read('src/app/api/orders/route.ts');for(const t of ['forge_orders','forge_order_items','forge_order_events','forge_pc_build_items','forge_carts'])assert.ok(order.includes(t),t)});
+test('no se entrega credencial de producción en repo',()=>{assert.ok(read('.gitignore').includes('.env.*'));assert.ok(!fs.existsSync(path.join(root,'.env.local')));});
+test('el seed es idempotente y etiquetado como DEMO',()=>{const seed=read('scripts/seed.mjs');assert.ok(seed.includes("existing.rows[0].n>0"));assert.ok(seed.includes('DEMO-'))});
+test('las rutas administrativas comprueban el token',()=>{for(const route of ['src/app/api/admin/route.ts','src/app/api/admin/products/route.ts','src/app/api/admin/variants/route.ts','src/app/api/admin/settings/route.ts','src/app/api/admin/orders/route.ts'])assert.ok(read(route).includes('authorized(req)'),route)});
+test('las reglas de compatibilidad comprueban CPU, RAM, GPU y PSU',()=>{const s=read('src/lib/compatibility.ts');for(const k of ['memory_type','socket','max_gpu_length_mm','recommended_psu_watts','supported_form_factors'])assert.ok(s.includes(k))});
+test('todos los iconos de catálogo existen',()=>{for(const name of ['case','cpu','gpu','ram','storage','psu','cooler','fans','motherboard','peripherals'])assert.ok(fs.existsSync(path.join(root,'public/hardware',name+'.svg')))});
